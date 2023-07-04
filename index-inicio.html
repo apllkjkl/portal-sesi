@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Inicial
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
+        rel="stylesheet" />
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #fafafa;
+        }
+
+        .row1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .row2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .card {
+            border-radius: 5px;
+            box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+            padding: 30px;
+            margin: 20px;
+            width: 400px;
+            transition: all 0.3s ease-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            cursor: pointer;
+        }
+
+        .card p {
+            color: #a3a5ae;
+            font-size: 16px;
+        }
+
+        .image {
+            float: right;
+            max-width: 64px;
+            max-height: 64px;
+        }
+
+        .blue {
+            border-left: 3px solid #4895ff;
+        }
+
+        .green {
+            border-left: 3px solid #3bb54a;
+        }
+
+        .red {
+            border-left: 3px solid #b3404a;
+        }
+        .orange{
+            border-left: 3px solid #f5a40d;
+        }
+        .yellow{
+            border-left: 3px solid #fffb0b;
+        }
+        .purple{
+            border-left: 3px solid #b319f0;
+        }
+
+        .menu {
+            background-color: #f2f2f2;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 10px;
+            padding: 5px 10px 0px;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu li a {
+            padding-right: 20%;
+            display: block;
+            padding: 20px 40px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu li a:hover {
+            background-color: #ddd;
+        }
+        .logo{
+            width: 180px;
+            height: 100px;
+        }
+
+        @media screen and (max-widht: 768px) {
+            .row1, .row2 {
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <img class="logo" src="/image/logo-sesi.png">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/index-inicio.html">Salas</a></li>
+            <li><a href="/index-horarios.html">Horarios</a></li>
+            <li><a href="#">Perfil</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="row1">
+        <div class="card green">
+            <h2>Sala 1</h2>
+            <p><a href="/index-horarios.html"></a>Horarios</p>
+        </div>
+
+        <div class="card blue">
+            <h2>Sala 2</h2>
+            <p><a href="/index-horarios.html"></a>Horarios</p>
+        </div>
+
+        <div class="card red">
+            <h2>Sala 3</h2>
+            <p><a href="/index-horarios.html"></a>Horarios</p>
+        </div>
+        </div>
+        <div class="row2">
+        <div class="card orange">
+            <h2>Sala 4</h2>
+            <p><a href="/index-horarios.html"></a>Horarios</p>
+        </div>
+        <div class="card purple">
+            <h2>Sala 5</h2>
+            <p><a href="/index-horarios.html"></a>Horarios</p>
+        </div>
+
+        <div class="card yellow">
+            <h2>Sala 6</h2>
+            <p><a href="/index-horarios.html"></a>Horarios</p>
+        </div></div>
+    </div>
+</body>
+
+</html>
