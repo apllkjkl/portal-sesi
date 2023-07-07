@@ -5,33 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
         body{
-            background-size: 110%;
-            background-image: url(https://static.vecteezy.com/system/resources/previews/002/063/012/non_2x/abstract-connecting-dots-and-lines-with-geometric-background-modern-technology-connection-science-polygonal-structure-background-illustration-vector.jpg);
-        }
-
-        .area-login{
+            background-image: url(https://img.freepik.com/vetores-premium/resumo-de-conexao-de-pontos-e-linhas-com-fundo-geometrico_41981-1594.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: "Poppins", sans-serif;
+            overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: fit-content;
+            height: 100vh;
             justify-content: center;
             align-items: center;
         
         }
 
         .login{
-            margin-top: -3%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: 	#0061a1	;
+            background-color: #f2f2f2;
             width: 355px;
             height: 320px;
             padding: 35px;
@@ -45,36 +38,33 @@
 
         .login input{
             margin-top: 10px;
-            border: 15px;
+            border: none;
             height: 45px;
             outline: color(srgb rgb(255, 255, 255) rgb(19, 19, 19) rgb(72, 68, 68));
         }
 
-        img{
-            margin: 6% 0 0 0%;
-            width: fit-content;
-            margin-left: 42.3%;
+        .login img{
+            width: 500px;
+            height: auto;
+            padding: 10px;
 
         }
     </style>
 </head>
 <body>
-    <!--
-            <div class="img">
-                <img src="/images/logopng.png" alt="">
-            </div>
-    -->
-    <img src="/portal sesi/images/logopng.png" alt="">
-
     <section class="area-login">
         <div class="login">
-            
+            <div>
+                <img src="/images/logo-responsivo.png" alt="">
+            </div>
             <form method="POST">
                 <input type="text" name="nome" placeholder="Usuario" autofocus>
+                <input type="text" name="nome" placeholder="Usuario" autofocus>
+                <input type="text" name="nome" placeholder="Usuario" autofocus>
                 <input type="password" name="senha" placeholder="Senha">
-              <a style="display: block; text-align: center; text-decoration: none; color: rgb(5, 5, 55);"  href="/portal sesi/index.html">Entrar</a>
+              <a href="/index.html">  <input type="submit" value="entrar"></a>
             </form>
-            <p style="font-size: 13px;">Ainda não criou sua conta?<a style="color: rgb(159, 159, 223);" href="/portal sesi/index-cadastro.html">Cadastre sua Conta!</a></p>
+            <p>Ainda não criou sua conta?<a style="color: blue;" href="/index.cadastro.html">Cadastre sua Conta!</a></p>
         </div>
     </section>
 </body>

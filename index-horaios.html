@@ -10,12 +10,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
         rel="stylesheet" />
+    <title>Horarios</title>
     <style>
         body {
             font-family: "Poppins", sans-serif;
             background-color: #fafafa;
         }
-        
+
         .menu {
             background-color: #f2f2f2;
         }
@@ -35,23 +36,32 @@
             display: block;
             padding: 20px 40px;
             text-decoration: none;
-            color: #504f4fd7;
+            color: #333;
         }
 
         .menu li a:hover {
             background-color: #ddd;
         }
-        .logo{
+
+        .logo {
             width: 180px;
             height: 100px;
         }
 
         @media screen and (max-widht: 768px) {
-            .row1, .row2 {
+
+            .row1,
+            .row2 {
                 flex-direction: column;
             }
-            
+
         }
+
+        table,th,td {
+            border: 1px solid black;
+        }
+    </style>
+
     </style>
 </head>
 
@@ -64,7 +74,22 @@
             <li><a href="/portal sesi/index-horaios.html">Horarios</a></li>
             <li><a href="/portal sesi/index-perfil.html">Perfil</a></li>
         </ul>
-    </div>
+        </div>
+
+        <h1>Horarios</h1>
+        <table>
+            <tr>
+                <th>Salas</th>
+                <th>Horarios</th>
+                <th>Turno</th>
+            </tr>
+            <tr>
+                <td>seila</td>
+                <td>nao sei</td>
+                <td>matutino</td>
+            </tr>
+
+        </table>
 </body>
 
 </html>
