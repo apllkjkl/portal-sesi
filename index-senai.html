@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portal Sesi
+    <title>Senai
     </title>
     <link rel="stylesheet" href="styles.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
         rel="stylesheet" />
-    <title>Horarios</title>
     <style>
         body {
             font-family: "Poppins", sans-serif;
@@ -22,26 +21,44 @@
             justify-content: center;
             align-items: center;
         }
+
         .card {
-  border-radius: 5px;
-  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-  padding: 30px;
-  margin: 20px;
-  width: 400px;
-  transition: all 0.3s ease-out;
-}
-.card:hover {
-  transform: translateY(-5px);
-  cursor: pointer;
-}
- 
-.card tr, th {
-  color: #a3a5ae;
-  font-size: 16px;
-}
-.green {
-  border-left: 3px solid #3bb54a;
-}
+            border-radius: 5px;
+            box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+            padding: 30px;
+            margin: 20px;
+            width: 400px;
+            transition: all 0.3s ease-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            cursor: pointer;
+        }
+
+        .card p {
+            color: #a3a5ae;
+            font-size: 16px;
+        }
+
+        .image {
+            float: right;
+            max-width: 64px;
+            max-height: 64px;
+        }
+
+        .blue {
+            border-left: 3px solid #4895ff;
+        }
+
+        .green {
+            border-left: 3px solid #3bb54a;
+        }
+
+        .red {
+            border-left: 3px solid #e11a2a;
+        }
+
 
         .menu {
             background-color: #f2f2f2;
@@ -69,7 +86,6 @@
             background-color: #ddd;
         }
 
-
         .logo {
             width: 150px;
             height: 100px;
@@ -83,14 +99,6 @@
             }
 
         }
-
-        table,
-        th,
-        td {
-            border: 0.5px solid rgb(143, 244, 148);
-        }
-    </style>
-
     </style>
 </head>
 
@@ -104,42 +112,7 @@
             <li><a href="/portal sesi/index-projetos.html">Projetos Sesi</a></li>
             <li><a href="/portal sesi/index-senai.html">Senai</a></li>
         </ul>
-    </div>
 
-    <div class="row">
-        <div class="card green">
-
-
-
-            <h1 style="color: #3bb54a;">Horarios</h1>
-            <table>
-                <tr>
-                    <th style="color: #3bb54a;">Salas</th>
-                    <th style="color: #3bb54a;">Horarios</th>
-                    <th style="color: #3bb54a;">Turno</th>
-                    
-                </tr>
-                <tr>
-                    <td>102b</td>
-                    <td>8:40-9:30</td>
-                    <td>Noturno</td>
-
-                    <tr>
-                        <td>203c</td>
-                        <td>7:00-7:50</td>
-                        <td>Matutino</td>
-                    </tr>
-                    <tr>
-                        <td>204f</td>
-                        <td>7:00-7:50 <br>10:40-11:30</td>
-                        <td></td>
-                    </tr>
-                </tr>
-
-            </table>
-            
-                
-        </div>
 </body>
 
 </html>

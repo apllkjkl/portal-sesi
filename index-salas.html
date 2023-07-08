@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portal Sesi
+    <title>Pagina Inicial
     </title>
     <link rel="stylesheet" href="styles.css" />
     <link
@@ -16,11 +16,17 @@
             background-color: #fafafa;
         }
 
-        .row {
+        .row1 {
             display: flex;
             justify-content: center;
             align-items: center;
         }
+        .row2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
 
         .card {
             border-radius: 5px;
@@ -56,9 +62,17 @@
         }
 
         .red {
-            border-left: 3px solid #e11a2a;
+            border-left: 3px solid #b3404a;
         }
-
+        .orange{
+            border-left: 3px solid #f5a40d;
+        }
+        .yellow{
+            border-left: 3px solid #fffb0b;
+        }
+        .purple{
+            border-left: 3px solid #b319f0;
+        }
 
         .menu {
             background-color: #f2f2f2;
@@ -90,14 +104,11 @@
             width: 150px;
             height: 100px;
         }
-
         @media screen and (max-widht: 768px) {
-
-            .row1,
-            .row2 {
+            .row1, .row2 {
                 flex-direction: column;
             }
-
+            
         }
     </style>
 </head>
@@ -113,28 +124,41 @@
             <li><a href="/portal sesi/index-senai.html">Senai</a></li>
         </ul>
     </div>
-    <a style="display: block; text-decoration: none;" href="/portal sesi/index-salas.html">
-        <div class="row">
+
+
+
+    <div class="row1">
         <div class="card green">
-            <h2 style="color:#3bb54a;">Salas</h2>
-            <p style="color: #3bb54a;">Agende seu horario aqui</p>
-            <a style="text-decoration: none; color:#1c6524" href="/portal sesi/index-horarios.html">Horarios</a>
-           
-        </div></a>
+            <h2 style="color: #3bb54a;">Sala 1</h2>
+            <a style="text-decoration: none; " href="/portal sesi/index-horarios.html"><p style="color: #3bb54a;">Horarios Disponiveis</p></a>
+        </div>
 
-        <a style="display: block; text-decoration: none;" href="/portal sesi/index-projetos.html"><div class="card blue">
-            <h2 style="color: #4895ff;">Rede Sesi</h2>
-            <p style="color: #4895ff;">Projetos dentro da escola</p>
-            <a style="color: #415f89; text-decoration: none;" href="/portal sesi/index-projetos.html">Projetos Sesi</a>
-        </div></a>
+        <div class="card blue">
+            <h2 style="color:#4895ff;">Sala 2</h2>
+            <a style="text-decoration: none;" href="/portal sesi/index-horarios.html"><p style="color: #4895ff;">Horarios Disponiveis</p></a>
+        </div>
 
-        <a style="display: block; text-decoration: none;" href="/portal sesi/index-senai.html"><div class="card red">
-            <h2 style="color: #e11a2a;">Senai</h2>
-            <p style="color: #e11a2a;">Confira nossos cursos!</p>
-            <a style="color: #c41322; text-decoration: none;" href="/portal sesi/index-senai.html">Cursos</a>
-        </div></a>
+        <div class="card red">
+            <h2 style="color:#e3303f">Sala 3</h2>
+            <a style="text-decoration: none;" href="/portal sesi/index-horarios.html"><p style="color:#b3404a;">Horarios Disponiveis</p></a>
+        </div>
+        </div>
+        <div class="row2">
+        <div class="card orange">
+            <h2 style="color:#f5a40d">Sala 4</h2>
+            <a style="text-decoration: none;" href="/portal sesi/index-horarios.html"><p style="color: #f5a40d;">Horarios Disponiveis</p></a>
+        </div>
+        <div class="card purple">
+            <h2 style="color: #b319f0;">Sala 5</h2>
+            <a style="text-decoration: none;" href="/portal sesi/index-horarios.html"><p style="color: #b319f0;">Horarios Disponiveis</p></a>
+            
+        </div>
+
+        <div class="card yellow">
+            <h2 style="color:#fffb0b;">Sala 6</h2>
+            <a style="text-decoration: none;" href="/portal sesi/index-horarios.html"><p style="color:#fffb0b;">Horarios Disponiveis</p></a>
+        </div>
     </div>
-
 </body>
 
 </html>
