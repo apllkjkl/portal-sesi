@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #fafafa;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            border-radius: 5px;
+            box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+            padding: 30px;
+            margin: 20px;
+            width: 400px;
+            transition: all 0.3s ease-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            cursor: pointer;
+        }
+
+        .card p {
+            color: #a3a5ae;
+            font-size: 16px;
+        }
+
+        .image {
+            float: right;
+            max-width: 64px;
+            max-height: 64px;
+        }
+
+        .blue {
+            border-left: 3px solid #4895ff;
+        }
+
+        .green {
+            border-left: 3px solid #3bb54a;
+        }
+
+        .red {
+            border-left: 3px solid #e11a2a;
+        }
+
+
+        .menu {
+            background-color: #f2f2f2;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 10px;
+            padding: 5px 10px 0px;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu li a {
+            padding-right: 20%;
+            display: block;
+            padding: 20px 40px;
+            text-decoration: none;
+            color: #504f4fd7;
+        }
+
+        .menu li a:hover {
+            background-color: #ddd;
+        }
+
+        .logo {
+            width: 150px;
+            height: 100px;
+        }
+
+        @media screen and (max-widht: 768px) {
+
+            .row1,
+            .row2 {
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <a href="/index.html"><img class="logo" src="/images/logopng.png"></a>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/index-salas.html">Salas</a></li>
+            <li><a href="/index-horarios.html">Horarios</a></li>
+            <li><a href="/index-projetos.html">Projetos Sesi</a></li>
+            <li><a href="/index-senai.html">Senai</a></li>
+        </ul>
+    </div>
+</body>
+</html>
